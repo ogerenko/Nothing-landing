@@ -4,7 +4,6 @@
   width: 24px;
   background-size: cover;
   background-position: center;
-  // transition: transform $effect-duration;
 
   @include hover (transform, scale(1.1));
 
@@ -17,7 +16,7 @@
   &--phone {
     position: relative;
     background-image: url(../images/icon-phone-call.svg);
-    display: inline-block; // new
+    display: inline-block;
 
     &::after {
       content: '+1 234 555-55-55';
@@ -38,7 +37,7 @@
     }
 
     &:hover::after {
-      transform: translateY(-50%) scale(1); // Масштабируем псевдоэлемент при наведении
+      transform: translateY(-50%) scale(1);
       opacity: 1;
     }
   }
@@ -47,10 +46,8 @@
     background-image: url(../images/icon-burger-menu.svg);
     opacity: 1;
     transition-duration: $effect-duration;
-    // transition: opacity 300;
 
     &:hover {
-      // opacity: 0;
     background-image: url(../images/icon-burger-menu-hover.svg);
     }
   }
