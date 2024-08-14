@@ -25,16 +25,16 @@ To run this project locally, you will need:
 ## Installation
 
   1. Clone the repository:
-    #### `git clone https://github.com/ogerenko/Nothing-landing.git`
+  #### `git clone https://github.com/ogerenko/Nothing-landing.git`
 
   2. Navigate to the project directory:
-    #### `cd Nothing-landing`
+  #### `cd Nothing-landing`
 
   3. Install the dependencies:
-    #### `npm install`
+  #### `npm install`
 
   4. Start the development server:
-    #### `npm start`
+  #### `npm start`
 
 ## Author
 
